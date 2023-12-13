@@ -9,7 +9,9 @@ The Logistic Regression Model had a precision score of ~82%, a recall score of ~
 The Random Forest and XGBoost model performed pretty much the same, but when it came down to the decimal, the XGBoost Model was the best predictive model overall. 
 
 # Business Understanding 
-The main stakeholders for this project are the Human Resources Department and the Salifort leadership team. The main problem they are trying to solve/understand is why employees decide to leave the company. They want to know the contributing factors that make an employee to leave. The model should help answer the question
+The main stakeholders for this project are the Human Resources Department and the Salifort leadership team. The main problem they are trying to solve/understand is why employees decide to leave the company. They want to know the contributing factors that make an employee to leave. The model should help answer the question:
 
 What’s likely to make the employee leave the company?
 
+# Data Understanding 
+The data used was provided by the Human Resources Department, that surveyed 15,000 employees. The original dataset has 14,999 rows and 10 columns. Some features include (saticifaction level, last evaluation, number of projects, avergae monthly hours, if an employee left or not, how many years they worked, last promotion in the last five years and if they had a work accident).
