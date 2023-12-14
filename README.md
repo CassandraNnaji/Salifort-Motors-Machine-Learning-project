@@ -42,3 +42,17 @@ The Confusion Matrix below shows the machines perdictions:
 
 4. By the models it is confirmed that many of the employees are overworked.
 
+### Employee Retention Recommendations:
+1. As employee tenure goes up, so should their salary. From the plot we saw that even at a 10 year tenure many of the employees were getting paid a medium to low salary.
+
+2. There needs to be a better scale for evaluation. Most of the employees that left were overworked and had high evaluations. This tells us that the company by default gave high evaluation score to those who were being overworked. 
+
+3. From what we saw from the plot, many of the employees that were overworked also were involved in multiply projects. There should be better management on dividing projects up between employees. If an employee is going to take on more projects and more hours there should be an incentive of higher pay or higher overtime pay.
+
+### Next Steps:
+1. It was stated that some of the data was also taken from employees that were fired. Maybe having a sample that did not include those employees, could return a different outcome. So a next step could be to acquire a sample from employees that are not in line to possibly being fired.
+
+2. I believe it may be wise to conduct a survey/building a predictive model on each individual department. So we can see how each department stacks up. From the plot we saw that the departments Sales, Technical and Support had the most employees that left the company. Maybe looking more into those departments individually can help learn about the treatment of employees.
+
+3. I think having a discussion or taking a survey on company culture would be beneficial. Maybe having questions about employee benefits, work life balance or even work culture would be beneficial. 
+
