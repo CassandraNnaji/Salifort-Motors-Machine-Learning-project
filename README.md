@@ -30,8 +30,13 @@ The Confusion Matrix below shows the machines perdictions:
 - The model identified 2x as many False Negatives than it did False Positives
 ![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/5af60b63-c225-4a10-90e0-bcab2e98ab0a)
 
-  
+## Conclusion, Recommendations & Next Steps
+### Summary of Model Results:
+1. Both models performed pretty much the same. So we chose the XGBoost Model as the best model predictor out of the two. The recall score was ~92%.
 
+2. The model correctly identified ~94% of employees that 'left' the company.
 
-# Conclusion 
+3. The top five features that help predict if an employee will leave are (last evaluation, satisfaction level,   number project, tenure, and overworked).
+
+4. By the models it is confirmed that many of the employees are overworked.
 
