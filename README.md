@@ -17,3 +17,4 @@ What’s likely to make the employee leave the company?
 The data used was provided by the Human Resources Department, that surveyed 15,000 employees. The original dataset has 14,999 rows and 10 columns. Some features include (satisfaction level, last evaluation, number of projects, average monthly hours, if an employee left or not, how many years they worked, last promotion in the last five years, if they had a work accident, salary and department). An engineered feature added to the dataset was 'overworked', which is if an employee worked >167 hr/month.
 
 # Modeling and Evaluation 
+A XGBoost Model comprising of 100 decision trees was used to determine if an employee would leave or not. The plot below shows the diffrent features that contribute to an employee wanting to leave. The top five features that help predict if an employee will leave are last evaluation, satisfaction level, number project, tenure, and overworked. The model overall performed with 
