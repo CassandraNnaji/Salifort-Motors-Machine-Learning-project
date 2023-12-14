@@ -17,4 +17,17 @@ What’s likely to make the employee leave the company?
 The data used was provided by the Human Resources Department, that surveyed 15,000 employees. The original dataset has 14,999 rows and 10 columns. Some features include (satisfaction level, last evaluation, number of projects, average monthly hours, if an employee left or not, how many years they worked, last promotion in the last five years, if they had a work accident, salary and department). An engineered feature added to the dataset was 'overworked', which is if an employee worked >167 hr/month.
 
 # Modeling and Evaluation 
-A XGBoost Model comprising of 100 decision trees was used to determine if an employee would leave or not. The plot below shows the diffrent features that contribute to an employee wanting to leave. The top five features that help predict if an employee will leave are last evaluation, satisfaction level, number project, tenure, and overworked. The model overall performed with 
+A XGBoost Model comprising of 100 decision trees was used to determine if an employee would leave or not. The plot below shows the diffrent features that contribute to an employee wanting to leave. The top five features that help predict if an employee will leave are last evaluation, satisfaction level, number project, tenure, and overworked. The model overall performed with a f1 score of 93%, a recall score of 91%, a precision score of 96% and an accuracy score of 98%.
+![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/490db871-fbd0-453d-9a30-d99401cb3e7d)![image]
+
+The Confusion Matrix below shows the machines perdictions:
+- Upper Left quadrent (True Neg) Number of correctly predicted employees that 'stayed' (2170)
+- Upper Right quadrent (False Pos) Number of incorrectly predicted employees that 'left' but actually 'stayed' (151)
+- Lower Left quadrent (False Neg) Number of incorrectly predicted employees that 'stayed' but actually 'left' (307)
+- Lower Right quadrent (True Pos) Number of correctly predicted employees that 'left' (164)
+- The model correctly identified ~34.82% of employees that 'left'.
+- The model identified 2x as many False Negatives than it did False Positives
+(https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/fe6e6486-06bd-471f-a52d-f86d5ead3b94)
+
+# Conclusion 
+
