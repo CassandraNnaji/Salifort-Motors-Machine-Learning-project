@@ -49,12 +49,6 @@ The Confusion Matrix below shows the machines perdictions:
 
 3. From what we saw from the plot, many of the employees that were overworked also were involved in multiply projects. There should be better management on dividing projects up between employees. If an employee is going to take on more projects and more hours there should be an incentive of higher pay or higher overtime pay.
 
-![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/84810ccb-9a4b-4344-be51-46214bc29c56)
-
-![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/9441875b-3de9-4276-8cd3-7f7e9230098f)
-
-
-
 ### Next Steps:
 1. It was stated that some of the data was also taken from employees that were fired. Maybe having a sample that did not include those employees, could return a different outcome. So a next step could be to acquire a sample from employees that are not in line to possibly being fired.
 
