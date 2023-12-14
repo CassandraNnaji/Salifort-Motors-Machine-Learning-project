@@ -23,14 +23,15 @@ A XGBoost Model comprising of 100 decision trees was used to determine if an emp
 
 
 The Confusion Matrix below shows the machines perdictions:
-- Upper Left quadrent (True Neg) Number of correctly predicted employees that 'stayed' (2170)
-- Upper Right quadrent (False Pos) Number of incorrectly predicted employees that 'left' but actually 'stayed' (151)
-- Lower Left quadrent (False Neg) Number of incorrectly predicted employees that 'stayed' but actually 'left' (307)
-- Lower Right quadrent (True Pos) Number of correctly predicted employees that 'left' (164)
-- The model correctly identified ~34.82% of employees that 'left'.
-- The model identified 2x as many False Negatives than it did False Positives
+- Upper Left quadrant (True Neg) Number of correctly predicted employees that 'stayed' (1993)
+- Upper Right quadrant (False Pos) Number of incorrectly predicted employees that 'left' but actually 'stayed' (8)
+- Lower Left quadrant (False Neg) Number of incorrectly predicted employees that 'stayed' but actually 'left' (30)
+- Lower Right quadrant (True Pos) Number of correctly predicted employees that 'left' (368)
+- The model correctly identified ~94% of employees that 'left'. 
+- The model identified 3x as many False Negatives than it did False Positives
 
-![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/5af60b63-c225-4a10-90e0-bcab2e98ab0a)
+![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/75cce529-bdae-4424-8b49-c72f303229c4)
+
 
 ## Conclusion, Recommendations & Next Steps
 ### Summary of Model Results:
