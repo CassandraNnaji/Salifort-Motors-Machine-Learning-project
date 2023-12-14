@@ -18,7 +18,8 @@ The data used was provided by the Human Resources Department, that surveyed 15,0
 
 # Modeling and Evaluation 
 A XGBoost Model comprising of 100 decision trees was used to determine if an employee would leave or not. The plot below shows the diffrent features that contribute to an employee wanting to leave. The top five features that help predict if an employee will leave are last evaluation, satisfaction level, number project, tenure, and overworked. The model overall performed with a f1 score of 93%, a recall score of 91%, a precision score of 96% and an accuracy score of 98%.
-![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/490db871-fbd0-453d-9a30-d99401cb3e7d)![image]
+![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/08f63181-a1bc-4e01-b338-549a47558990)
+
 
 The Confusion Matrix below shows the machines perdictions:
 - Upper Left quadrent (True Neg) Number of correctly predicted employees that 'stayed' (2170)
@@ -27,7 +28,10 @@ The Confusion Matrix below shows the machines perdictions:
 - Lower Right quadrent (True Pos) Number of correctly predicted employees that 'left' (164)
 - The model correctly identified ~34.82% of employees that 'left'.
 - The model identified 2x as many False Negatives than it did False Positives
-(https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/fe6e6486-06bd-471f-a52d-f86d5ead3b94)
+![image](https://github.com/CassandraNnaji/Salifort-Motors-Machine-Learning-project/assets/120784310/5af60b63-c225-4a10-90e0-bcab2e98ab0a)
+
+  
+
 
 # Conclusion 
 
