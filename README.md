@@ -1,7 +1,7 @@
 # Predicting Salifort Motors Employee Turnover
 
 # Overview
-Salifort Motors is experiencing high employee turnover. Which has become a financial burden on the company. The goal of the project is to build a model that will predict is an employee leave or not. A predictive model will help the company understand which factors contribute to employee resignation and hopefully help them develop a solution. The Human Resources department collect a survey sample from 15,000 employees. With this data we built Both a Random Forest and XGBoost Model, and a Logistic Regression Model. We did this to see which model predicted employee turnover the best.
+Salifort Motors is experiencing high employee turnover. Which has become a financial burden on the company. The goal of the project is to build a model that will predict if an employee will leave or not. A predictive model will help the company understand which factors contribute to employee resignation and hopefully help them develop a solution. The Human Resources department collect a survey sample from 15,000 employees. With this data we built a Random Forest, XGBoost Model, and a Logistic Regression Model. We did this to see which model predicted employee turnover the best.
 
 The Random Forest Model had a precision score of ~95%, a recall score of ~91%, a f1 score of ~93% and an accuracy score of ~98%.
 The XGBoost Model had a precision score of ~96%, a recall score of ~91%, a f1 score of ~93% and an accuracy score of ~98%. 
