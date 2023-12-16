@@ -48,7 +48,7 @@ The Confusion Matrix below shows the machines perdictions:
 
 2. There needs to be a better scale for evaluation. Most of the employees that left were overworked and had high evaluations, as we saw in the 'Monthly hours by last evaluation score' plot in the Notebook. This tells us that the company by default gave high evaluation score to those who were being overworked. 
 
-3. From the 'Monthly hours by last evaluation score' plot, many of the employees that were overworked also were involved in multiply projects. There should be better management on dividing projects up between employees. If an employee is going to take on more projects and more hours there should be an incentive of higher pay or higher overtime pay.
+3. From the 'Monthly hours by Number of projects' plot, many of the employees that were overworked also were involved in multiply projects. There should be better management on dividing projects up between employees. If an employee is going to take on more projects and more hours there should be an incentive of higher pay or higher overtime pay.
 
 ### Next Steps:
 1. It was stated that some of the data was also taken from employees that were fired. Maybe having a sample that did not include those employees, could return a different outcome. So a next step could be to acquire a sample from employees that are not in line to possibly being fired.
